@@ -1,0 +1,42 @@
+{
+  "name": "vite-plugin-appinfo",
+  "version": "0.0.1",
+  "description": "Automatically insert the version or git_info in your app",
+  "keywords": [
+    "app",
+    "version",
+    "plugin",
+    "vite"
+  ],
+  "author": "bwrong<ibwrong@foxmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BWrong/vite-plugin-appinfo.git"
+  },
+  "homepage": "https://github.com/BWrong/vite-plugin-appinfo.git",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format cjs,esm",
+    "release": "npm run build && standard-version --infile CHANGELOG.md"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "standard-version": "^9.5.0"
+  }
+}
