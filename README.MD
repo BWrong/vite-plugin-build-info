@@ -1,14 +1,13 @@
 # vite-plugin-appinfo
-
-> Automatically insert the version or git_info in your app
-
-自动将应用版本信息、git相关信息插入到你的应用中，方便做追溯。
-
 <p align="center">
   <img src="https://img.shields.io/npm/dm/vite-plugin-appinfo" alt="Downloads"></a>
   <a href="https://www.npmjs.com/package/vite-plugin-appinfo"><img src="https://img.shields.io/npm/v/vite-plugin-appinfo" alt="Version"></a>
   <a href="https://github.com/BWrong/vite-plugin-appinfo/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vite-plugin-appinfo" alt="License"></a>
 </p>
+
+> Automatically insert the version or git_info in your app
+
+自动将应用版本信息、git相关信息插入到你的应用中，方便做追溯。
 
 ## Demo
 支持console.log、meta、全局变量三种方式，默认开启meta，如果环境没有git，这无法插入git相关信息。
@@ -50,4 +49,4 @@ export default defineConfig({
 - `showBuildUser` - 显示打包的用户 (`false` by default)
 - `enableMeta` - 添加 \<meta name="app-info" content="{app-info}"> 到 \<head>中 (`true` by default)
 - `enableLog` - Console打印 (`false` by default)
-- `enableGlobal` - 设置全局变量 *\`__APP_INFO__\`* . (`true` by default)
+- `enableGlobal` - 设置全局变量 *\`\_\_APP_INFO\_\_\`* . (`true` by default)
