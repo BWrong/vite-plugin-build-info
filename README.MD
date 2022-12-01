@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/npm/dm/vite-plugin-appinfo" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vite-plugin-appinfo"><img src="https://img.shields.io/npm/v/vite-plugin-appinfo.svg" alt="Version"></a>
-  <a href="https://github.com/BWrong/vite-plugin-appinfo/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vite-plugin-appinfo.svg" alt="License"></a>
+  <a href="https://www.npmjs.com/package/vite-plugin-appinfo"><img src="https://img.shields.io/npm/v/vite-plugin-appinfo" alt="Version"></a>
+  <a href="https://github.com/BWrong/vite-plugin-appinfo/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vite-plugin-appinfo" alt="License"></a>
 </p>
 
 ## Demo
