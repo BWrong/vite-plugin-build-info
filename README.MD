@@ -1,8 +1,8 @@
-# vite-plugin-appinfo
+# vite-plugin-build-info
 <p align="center">
-  <img src="https://img.shields.io/npm/dm/vite-plugin-appinfo" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vite-plugin-appinfo"><img src="https://img.shields.io/npm/v/vite-plugin-appinfo" alt="Version"></a>
-  <a href="https://github.com/BWrong/vite-plugin-appinfo/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vite-plugin-appinfo" alt="License"></a>
+  <img src="https://img.shields.io/npm/dm/vite-plugin-build-info" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/vite-plugin-build-info"><img src="https://img.shields.io/npm/v/vite-plugin-build-info" alt="Version"></a>
+  <a href="https://github.com/BWrong/vite-plugin-build-info/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vite-plugin-build-info" alt="License"></a>
 </p>
 
 > Automatically insert the version or git_info in your app
@@ -25,15 +25,15 @@
 
 ## Install
 ```sh
-yarn add -D vite-plugin-appinfo
-# OR npm install -D vite-plugin-appinfo
+yarn add -D vite-plugin-build-info
+# OR npm install -D vite-plugin-build-info
 ```
 
 ## Usage
 ```ts
 // vite.config.ts
 import { defineConfig } from 'vite'
-import vitePluginAppinfo from 'vite-plugin-appinfo'
+import vitePluginAppinfo from 'vite-plugin-build-info'
 
 export default defineConfig({
   plugins: [

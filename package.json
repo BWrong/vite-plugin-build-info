@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-appinfo",
+  "name": "vite-plugin-build-info",
   "version": "0.0.3",
   "description": "Automatically insert the version or git_info in your app",
   "keywords": [
@@ -20,9 +20,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BWrong/vite-plugin-appinfo.git"
+    "url": "git+https://github.com/BWrong/vite-plugin-build-info.git"
   },
-  "homepage": "https://github.com/BWrong/vite-plugin-appinfo.git",
+  "homepage": "https://github.com/BWrong/vite-plugin-build-info.git",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
   "files": [

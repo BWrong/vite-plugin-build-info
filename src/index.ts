@@ -46,7 +46,7 @@ interface Options {
 export default (option?: Options): Plugin => {
   const { showBuildUser = false, enableMeta = true, enableLog = false, enableGlobal = false } = option || {};
   return {
-    name: 'vite-plugin-version',
+    name: 'vite-plugin-build-info',
     async transformIndexHtml() {
       const els: IndexHtmlTransformResult = [];
       const appInfo = getAppInfo();
