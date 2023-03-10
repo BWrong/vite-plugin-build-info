@@ -49,4 +49,4 @@ export default defineConfig({
 - `showBuildUser` - 显示打包的用户 (`false` by default)
 - `enableMeta` - 添加 \<meta name="app-info" content="{app-info}"> 到 \<head>中 (`true` by default)
 - `enableLog` - Console打印 (`false` by default)
-- `enableGlobal` - 设置全局变量 *\`\_\_APP_INFO\_\_\`* . (`true` by default)
+- `enableGlobal` - 设置全局变量 *\`\_\_APP_INFO\_\_\`* . (`false` by default)

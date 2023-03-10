@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-build-info",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Automatically insert the version or git_info in your app",
   "keywords": [
     "app",
